@@ -11,7 +11,7 @@ public:
 		this->y = y;
 	}
 	void move(double x, double y);
-	void rotate90(){}
-	double area(){}
+	virtual void rotate90(){}
+	virtual double area() = 0;
 };
 
